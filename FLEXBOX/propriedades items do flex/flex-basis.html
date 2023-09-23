@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- CONCEITO -->
+    <!-- Define a altura e a largura de acordo com o flex-direction -->
+    <div class="box">
+      <div class="item">A</div>
+      <div class="item">B</div>
+      <div class="item">C</div>
+      <div class="item">D</div>
+    </div>
+    <style>
+      .box {
+        display: flex;
+        flex-direction: column;
+        border: red 1px dashed;
+      }
+      .item {
+        border: 1px solid;
+        flex-basis: auto;
+      }
+      .item:nth-child(1) {
+        width: 25px;
+        height: 400px;
+      }
+    </style>
+  </body>
+</html>

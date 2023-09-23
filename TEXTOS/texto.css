@@ -1,0 +1,23 @@
+p { 
+  font-family: sans-serif;
+  font-style: oblique;
+  font-variant: small-caps;
+  font-weight: normal;
+  font-size: 1.2em;
+  letter-spacing: 4px;
+  word-spacing: 1em;
+  line-height: 2.6; 
+  text-align: center;
+}
+
+#span {
+  font-family: serif; /* dobras nas bordas */
+  font-weight: lighter;
+  font-style: italic;
+  text-transform: uppercase;
+  text-decoration: underline dashed red;
+  text-align: center;
+  color: #FFFFFF;
+background: #232323;
+text-shadow: 0 0 5px #FFF, 0 0 10px #FFF, 0 0 15px #FFF, 0 0 20px #49ff18, 0 0 30px #49FF18, 0 0 40px #49FF18, 0 0 55px #49FF18, 0 0 75px #49ff18;
+}

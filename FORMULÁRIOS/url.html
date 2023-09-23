@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form action="">
+      <input
+        type="url"
+        required
+        placeholder="http://example.com.br"
+        pattern=".*\.com.br.*"
+        title="Somente domínio .com.br serão aceitos"
+        list="urldata"
+        spellcheck="false"
+      />
+      <button type="submit">Enviar</button>
+    </form>
+
+    <datalist id="urldata">
+      <option value="http://example.com.br"></option>
+      <option value="http://example.com.br"></option>
+      <option value="http://example.com.br"></option>
+    </datalist>
+  </body>
+</html>

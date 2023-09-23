@@ -1,0 +1,7 @@
+h1 + p {
+  color: green;
+}
+
+button + button {
+  margin-left: 60px;
+}

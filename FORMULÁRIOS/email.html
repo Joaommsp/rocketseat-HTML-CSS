@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form action="">
+      <input
+        type="email"
+        multiple
+        minlength="8"
+        pattern=".+@rocketseat\.com\.br"
+        title="Somente emails rocketseat;com.br serão aceitos"
+        list="lista_emails"
+      />
+      <button type="submit">Enviar</button>
+      <!-- O . quer dizer qualquer caractere... o \. é o ponto literal-->
+      <datalist id="lista_emails">
+        <option value="jmmsp2003@hotmail.com"></option>
+        <option value="bosta2306gt@gmail.com"></option>
+        <option value="yasuo234gt@gmail.com"></option>
+      </datalist>
+    </form>
+  </body>
+</html>

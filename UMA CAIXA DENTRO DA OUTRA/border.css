@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+div {
+  width: 100px;
+  height: 100px;
+  margin: 20% auto;
+  border: 20px solid red;
+  box-sizing: border-box;
+  border-top: solid green 20px;
+
+  outline:  5px solid yellow;
+}
+
+/* <line-style> = 
+  none    |
+  hidden  |
+  dotted  |
+  dashed  |
+  solid   |
+  double  |
+  groove  |
+  ridge   |
+  inset   |
+  outset  
+  */

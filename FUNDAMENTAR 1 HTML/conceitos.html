@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <!--root-->
+  <head>
+    <meta charset="UTF-8" />
+    <!--Caracteres-->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Conceitos HTML</title>
+  </head>
+  <body>
+    HTML : Hypertext Markup Language;
+    <!--
+      Os hypertextos são hoje as imagens , links e etc ; são textos 
+      com mais conteúdos além das letras.
+    -->
+    Markup : TAGS
+    <!--
+      Abertura da tag;
+      Fechamento da tag;
+      Conteúdo;
+      Elementos.
+    -->
+    <h1>Título</h1>
+    <!--
+      Elementos Vazios:
+    -->
+    <img src="" alt="" />
+    <!--Uma imagem n tem conteúdo , apenas atributos-->
+    <input type="text" />
+
+    Atributos:
+    <!--
+      Informações extras;
+      Configurações do elemento.
+    -->
+    <img src="conteúdo" alt="" />
+
+    Atributos Booleanos(V ou F):
+    <!--
+      Não precisam de conteúdo
+    -->
+    <input type="text" />
+    <input type="text" disabled />
+
+    Aspas:
+    <!--
+      - omissão
+      - simples 
+      - dupla (SEMPLE USE AS DUPLAS)
+    -->
+
+    Atributos Globais( aplicados em todas as tags )
+    <!--
+      Atributos globais mais utilizados:
+      - class
+      - contenteditable ( editar o conteúdo )
+      - data-*
+      - hidden
+      - id
+      - style
+      - tabindex
+      - tittle(apenas define um título e aparece quando coloca o cursor em cima do elemento)
+    -->
+
+    <div class="carrinho" id="nome">
+      <!--elementos aqui dentro-->
+    </div>
+    <div class="carrinho" contenteditable="true" style="color: red">
+      carne de boi
+    </div>
+    <div class="carrinho" data-qualquer_nome_aqui="">
+      <!--elementos aqui dentro-->
+    </div>
+
+    <!--tab index-->
+    <div tabindex="2" title="joao">conteúdo</div>
+    <div tabindex="1">conteúdo</div>
+    <div tabindex="3">conteúdo</div>
+
+    <a
+      href="https://developer.mozilla.org/pt-BR/docs/Web/HTML/Global_attributes"
+      target="_blank"
+      >Atributos globais</a
+    >
+
+    Aninhamento de TAGS
+    <!--
+      - fluxo
+      - hierarquia
+      - posicionamento dos elementos
+    -->
+    <div>
+      <p>vou <em>escrever</em> um parágrafo</p>
+      <p>
+        <a href="">esse</a><br />
+        é um novo parágrafo
+      </p>
+    </div>
+    <p>
+      To <em>apaixonado nela</em> n sei como lever isso no
+      <strong>esporte</strong> já q eu tenho medo de perder
+      <a href="https://www.google.com/" target="_blank">essa gata</a> também
+    </p>
+    <p>
+      Para uma <em>aleatória</em> pq "ela" pode mudar a qualquer momento ou
+      simplesmente deixar de existir... mas ela sempre volta pra mim quando eu
+      menos espero.
+    </p>
+  </body>
+</html>

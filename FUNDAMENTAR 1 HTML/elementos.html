@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Trabalhando com elementos</title>
+  </head>
+  <body>
+    Semântica:
+    <!--
+      - Dar significado
+      - Elementos semânticos
+    -->
+
+    <!--Cabeçalhos e parágrafos-->
+
+    <h1>Sobre mim</h1>
+    <p>texto</p>
+    <p>texto</p>
+    <h2>Nascimento</h2>
+    <p>texto</p>
+    <h3>infância</h3>
+    <p>texto</p>
+    <h2>Trabalho</h2>
+    <p>texto</p>
+    <a href="">Saiba mais</a>
+
+    Listas:
+    <!--Listas
+    - Ordenadas - ol
+    - não ordenadas - ul
+    -->
+    <h1>Suco detox</h1>
+    <h2>ingredientes</h2>
+    <ol>
+      <li>3 folhas de couve</li>
+      <li>1 laranjas</li>
+      <li>1 pedaço de gengibre</li>
+      <li>300ml de água</li>
+      <li>adoçande a gosto</li>
+      <li>gelo a gosto</li>
+    </ol>
+    <ul>
+      <li>3 folhas de couve</li>
+      <li>1 laranjas</li>
+      <li>1 pedaço de gengibre</li>
+      <li>300ml de água</li>
+      <li>adoçande a gosto</li>
+      <li>gelo a gosto</li>
+    </ul>
+
+    Citações
+    <!--
+      - <blockquote>
+      - <cite>
+      - <q>
+    -->
+
+    <blockquote
+      cite="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/blockquote"
+    >
+      O
+      <strong>Elemento HTML <code>&lt;blockquote&lt;</code></strong> ( ou
+      <em>HTML Block Quotation Element</em>) Indica que um texto externo foi
+      citado
+    </blockquote>
+    <p>
+      de acordo com a
+      <a
+        href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/blockquote"
+        ><cite>Página MND blockquote</cite></a
+      >
+    </p>
+    <p>
+      According to Mozilla's website,
+      <q cite="https://www.mozilla.org/en-US/about/history/details/"
+        >Firefox 1.0 was released in 2004 and became a big success.</q
+      >
+    </p>
+
+    Abreviações
+    <!--
+      Abreviações 
+
+      <abbr>
+    -->
+    <p>
+      Usamos <abbr title="Hypertext Markup Language">HTML</abbr> para estruturar
+      nosso documentos Web
+    </p>
+
+    Detalhes de contato
+    <!--
+      Detalhes de contato 
+
+      <adress>
+    -->
+    <address>
+      <p>joão Marcos <br />Paulo Afonso-BA</p>
+    </address>
+  </body>
+
+  Lista de descrição
+  <!--
+    Lista de descrição
+    
+    <dl>
+      <dt></dt>
+      <dd></dd>
+    </dl>
+  -->
+
+  <h2>Glossário</h2>
+  <dl>
+    <dt>João</dt>
+    <dd>O melhor do mundo</dd>
+
+    <dt>João</dt>
+    <dd>Tem que treinar mais >:(</dd>
+  </dl>
+
+  Repesentando códigos
+  <!--
+    Repesentando códigos(palavras reservadas) de computador
+
+    <code> parte genérica de código
+    <pre> Blocos de código - tag q mantém espaços em branco e recuos
+  -->
+
+  <code>document .querySelector("body") </code>
+  <pre>
+document
+    .querySelector("body")</pre
+  >
+  <p>Isso é uma tag:<code>&lt;pre></code></p>
+  <code>&lt;pre></code>
+
+  Elementos genéricos
+  <!--Elementos genéricos
+   * <div> Bloco / colocar outros elementos
+   * <span> Linha / colocar textos
+  -->
+  <div>joao</div>
+  <div>Marcos</div>
+  <span>joão</span
+  ><span> Marcos</span>
+
+  <div class="carrinho_compra">
+    <span>Produto</span>
+    <span>RS 5,00</span>
+  </div>
+</html>

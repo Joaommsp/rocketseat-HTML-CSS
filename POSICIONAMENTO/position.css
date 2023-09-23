@@ -1,0 +1,37 @@
+.box {
+  width: 50px;
+  height: 50px;
+  margin-bottom: 8px;
+}
+
+.box1 {
+  background-color: red;
+  /*position: relative;*/
+  position: absolute;  /* mudança de camada / em ralaçao ao elemento PAI */
+  /*left: 0px;
+  top: 0px;*/
+  top: 5px;
+  left: 5px;
+  z-index: 3;
+}
+
+.box2 {
+  position: absolute;
+  background-color: blue;
+  top: 10px;
+  left: 10px;
+  z-index: 4;
+}
+
+.box3 {
+  position: absolute;
+  background-color: yellow;
+  top: 15px;
+  left: 15px;
+  z-index: 8;
+}
+
+/*main {
+  position: relative;
+  margin: 200px;
+}*/

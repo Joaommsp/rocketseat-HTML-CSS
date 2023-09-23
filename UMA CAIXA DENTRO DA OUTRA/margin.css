@@ -1,0 +1,26 @@
+* {
+  margin: 0;
+}
+
+div,section {                 
+  border: 1px solid red;
+  width: 100px;
+  height: 100px;
+  /*margin: 90px 0px; /* em cima e embaixo e nas laterais */ 
+  display: inline;
+  margin: 10px;
+}
+/*
+div {
+  margin-bottom: 8px;
+}
+/*
+section {
+  margin-top: 8px;   /* margin colapssing : as margens se juntaram para formar os 8px , ou seja , não houve mudança */
+/*}
+
+*/
+.teste {
+  display: block;
+  margin: 0 auto;  /* só funciona para as laterais , por isso geralmente fica em 0 o valor de cima e embaixo */
+}

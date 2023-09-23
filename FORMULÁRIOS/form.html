@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formulário</title>
+  </head>
+  <body>
+    <form action="" method="GET">
+      <!-- http://minhapagina.com.br/?name=joao&emal=jmmsp2003@hotmail.com-->
+    </form>
+    <form action="" method="POST"></form>
+    <!-- Esconder dados-->
+    <form action="">
+      <fieldset name="inputs-contato">
+        <legend>Contato</legend>
+        <label for="nome">Nome</label>
+        <input type="text" id="nome" value="MITO" />
+        <!-- Fazendo a conexão entre a laber e o input com o Id: nome-->
+      </fieldset>
+      <button type="submit">Enviar</button>
+      <button type="reset">Limpar</button>
+    </form>
+    <br />
+    <br />
+    <label for="nome2">
+      Nome:
+      <input type="text" id="nome2" />
+    </label>
+    <button type="submit" name="button" value="valor_qualquer">
+      botao com valor
+    </button>
+
+    <form action="" id="meu_form"></form>
+    <button form="meu_form" type="submit"></button>
+  </body>
+</html>
